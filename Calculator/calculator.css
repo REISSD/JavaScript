@@ -1,0 +1,55 @@
+body{
+    block-size: 300px;
+    background-color: darkgray;
+}
+
+div{
+    block-size: 300px;
+    width: 210px;
+    background-color: darkslategray;
+    border-radius: 1ex;
+    border-color: black;
+    text-align: center;
+    position:relative;
+}
+
+h3{
+    display: inline;
+    color: aliceblue;
+    padding-top: 20px;
+}
+
+input[type="text"]{
+    block-size: 100px;
+    height: 25px;
+    text-align: right;
+    border-radius: 1ex;
+    border-color: white;
+    margin: 20px;
+    background-color: blanchedalmond;
+}
+
+.memory{
+    background-color: blueviolet;
+}
+
+.operator{
+    background-color: darkorange;
+}
+
+.clear{
+    background-color: red;
+}
+
+.equal{
+    background-color: green;
+}
+
+input[type="button"]{
+    height: 32px;
+    width: 35px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    border-radius: 1ex;
+    border-color: white;
+}

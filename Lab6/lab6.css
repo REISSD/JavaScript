@@ -1,0 +1,46 @@
+#pour{
+   display: grid;
+   grid:
+      [header-start] "header header header" 100px
+      [content-start] "main    main   main" 400px
+      [footer-start] "footer footer footer" 100px
+      /[ads] 200px [main] 1fr [links] 200px; 
+    
+}
+
+#first{
+   grid-column-start: header-start;
+   grid-column-end: header-end;
+   background-color: rgb(159, 159, 189);
+   text-align: center;
+}
+
+#pourtable{
+   grid-column-start: main-start;
+   grid-column-end: main-end;
+   font: bold 1em "Marko One", Georgia, serif;
+   color: black;
+   text-align: center;
+   text-transform: uppercase;
+   background-color: aqua;
+}
+
+#bottom{
+   grid-column-start: footer-start;
+   grid-column-end: footer-end;
+   font: bold .75em "Marko One", Georgia, serif;
+   color: black;
+   text-align: left;
+  
+}
+
+@media print{
+   header, main{
+      display: none;
+   }
+}
+
+td, th{
+   border: 1px solid #ccc;
+}
+
